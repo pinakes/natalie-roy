@@ -1,5 +1,5 @@
 /* Typography */
-p, a, h3 {
+p, a, h3, h5 {
 	font-family: 'Syne', sans-serif;
 }
 h1, h2, h4 {
@@ -18,4 +18,87 @@ h4.index {
 a:link, a:visited {
 	color: #000;
 	
+}
+h2.back {
+	position: fixed;
+	z-index: 5;
+	transform: rotate(-90deg);
+	left: -37px;
+	bottom: 92px;
+	font-size: 2em;
+	color: #000;
+	/*-webkit-text-stroke: 1px #000;
+	-webkit-text-fill-color: transparent;*/
+}
+@media (max-width: 575.98px) {
+	h2.back {
+		position: fixed;
+		z-index: 5;
+		transform: rotate(-90deg);
+		left: -20px;
+		bottom: 49px;
+		font-size: 1.2em;
+		color: #000;
+	}
+}
+/* Compositions */
+/* Carriage House */
+.container-comp {
+	position: relative;
+}
+.comp1 {
+	z-index: 1;
+	position: absolute;
+    left: 0;
+    top: 20vh;
+    width: 70vw;
+}
+.comp2 {
+	z-index: 2;
+	position: absolute;
+	left: 20vw;
+	width: 30vw;
+}
+.comp3 {
+	position: absolute;
+	z-index: 3;
+	width: 33vw;
+	left: 47vw;
+	top: 4vh;
+}
+.comp4 {
+	position: absolute;
+	z-index: 4;
+	width: 24vw;
+	left: 33vw;
+	top: 50vh;
+}
+@media (max-width: 575.98px) { 
+	.comp1 {
+		z-index: 1;
+		position: absolute;
+	    left: 0;
+		top: 10vh;
+		width: 100vw;
+	}
+	.comp2 {
+		z-index: 2;
+		position: absolute;
+		left: 20vw;
+		width: 50vw;
+	}
+	.comp3 {
+		position: absolute;
+		z-index: 3;
+		width: 53vw;
+		left: 37vw;
+		top: 19vh;
+	}
+	.comp4 {
+		position: absolute;
+		z-index: 4;
+		width: 50vw;
+		left: 23vw;
+		top: 47vh;
+	}
 }
