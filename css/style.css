@@ -1,0 +1,21 @@
+/* Typography */
+p, a, h3 {
+	font-family: 'Syne', sans-serif;
+}
+h1, h2, h4 {
+	font-family: 'Oswald', sans-serif;
+}
+h1.index {
+	margin-top: 3em;
+}
+h4.index {
+	font-weight: 200;
+	margin-top: 79px;
+    font-size: .85em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+a:link, a:visited {
+	color: #000;
+	
+}
