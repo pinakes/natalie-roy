@@ -1,4 +1,0 @@
-AuthUserFile https://natalie-roy.com/.htpasswd
-AuthName "Natalie Roy Portfolio"
-AuthType Basic
-require valid-user
